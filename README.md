@@ -4,7 +4,7 @@ Dota 2 has become one of the largest esports games in history, with its global t
 
 <h3>How to use</h3>
 
-The chart itself is mostly intuitive. The chart will render 
+The chart itself is mostly intuitive. The chart will render information from lowest to highest order of specificity. Users may also click the center of the chart to go up one level.
 
 <h3>Technologies handled</h3>
 
