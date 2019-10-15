@@ -19,3 +19,12 @@ The chart itself is mostly intuitive. The chart will render information from low
   <li>(e) consists of two options, casual or professional gameplay. The sunburst chart will then give information based on the specified option.</li>
 </ul>
 <img src="https://frapwithfriends1-seeds.s3.amazonaws.com/Screen+Shot+2019-10-14+at+8.21.56+PM.png" />
+
+<h3>TODOS</h3>
+
+<ol>
+  <li>Day 1: Learn D3 sunburst charts and gain more insight on how to best utilize the dota API</li>
+  <li>Day 2: implement the switch functionality between pro and normal information as well as the highest layer of the sunburst</li>
+  <li>Day 3: implement the rest of the sunburst chart functionality, make sure it all works as intended, major ux testing</li>
+  <li>Day 4: clean up css and any minor bugs that may still linger</li>  
+</ol>
