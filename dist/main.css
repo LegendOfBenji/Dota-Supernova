@@ -1,3 +1,16 @@
+body {
+  font-family: 'PT Sans Narrow', sans-serif; }
+
+.hidden-arc {
+  fill: none; }
+
+.main-arc {
+  stroke: white;
+  stroke-width: 2px;
+  transition: opacity .4s; }
+
+.main-arc:hover {
+  cursor: pointer; }
 
 
-/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJtYWluLmNzcyIsInNvdXJjZXNDb250ZW50IjpbXSwic291cmNlUm9vdCI6IiJ9*/
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvc3R5bGVzL2luZGV4LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7QUFDQSw0Q0FBNEM7O0FBRTVDO0FBQ0EsYUFBYTs7QUFFYjtBQUNBO0FBQ0E7QUFDQSwwQkFBMEI7O0FBRTFCO0FBQ0Esa0JBQWtCIiwiZmlsZSI6Im1haW4uY3NzIiwic291cmNlc0NvbnRlbnQiOlsiYm9keSB7XG4gIGZvbnQtZmFtaWx5OiAnUFQgU2FucyBOYXJyb3cnLCBzYW5zLXNlcmlmOyB9XG5cbi5oaWRkZW4tYXJjIHtcbiAgZmlsbDogbm9uZTsgfVxuXG4ubWFpbi1hcmMge1xuICBzdHJva2U6IHdoaXRlO1xuICBzdHJva2Utd2lkdGg6IDJweDtcbiAgdHJhbnNpdGlvbjogb3BhY2l0eSAuNHM7IH1cblxuLm1haW4tYXJjOmhvdmVyIHtcbiAgY3Vyc29yOiBwb2ludGVyOyB9XG4iXSwic291cmNlUm9vdCI6IiJ9*/

@@ -1,0 +1,180 @@
+{
+  "name": "DotaSupernova",
+  "children": [
+    {
+      "name": "teams",
+      "children": [
+        {
+          "name": "OG",
+          "children": [
+            {
+              "name": "rating",
+              "value": 1592
+            },
+            {
+              "name": "wins",
+              "value": 538
+            },
+            {
+              "name": "losses",
+              "value": 301
+            }
+          ]
+        },
+        {
+          "name": "PSG.LGD",
+          "children": [
+            {
+              "name": "rating",
+              "value": 1534
+            },
+            {
+              "name": "wins",
+              "value": 1075
+            },
+            {
+              "name": "losses",
+              "value": 709
+            }
+          ]
+        },
+        {
+          "name": "Team Liquid",
+          "children": [
+            {
+              "name": "rating",
+              "value": 1490
+            },
+            {
+              "name": "wins",
+              "value": 828
+            },
+            {
+              "name": "losses",
+              "value": 505
+            }
+          ]
+        },
+        {
+          "name": "Team Secret",
+          "children": [
+            {
+              "name": "rating",
+              "value": 1486
+            },
+            {
+              "name": "wins",
+              "value": 695
+            },
+            {
+              "name": "losses",
+              "value": 351
+            }
+          ]
+        },
+        {
+          "name": "Vici Gaming",
+          "children": [
+            {
+              "name": "rating",
+              "value": 1452
+            },
+            {
+              "name": "wins",
+              "value": 982
+            },
+            {
+              "name": "losses",
+              "value": 654
+            }
+          ]
+        },
+        {
+          "name": "VGJ Storm",
+          "children": [
+            {
+              "name": "rating",
+              "value": 1450
+            },
+            {
+              "name": "wins",
+              "value": 79
+            },
+            {
+              "name": "losses",
+              "value": 36
+            }
+          ]
+        },
+        {
+          "name": "Optic Gaming",
+          "children": [
+            {
+              "name": "rating",
+              "value": 1430
+            },
+            {
+              "name": "wins",
+              "value": 176
+            },
+            {
+              "name": "losses",
+              "value": 116
+            }
+          ]
+        },
+        {
+          "name": "Evil Geniuses",
+          "children": [
+            {
+              "name": "rating",
+              "value": 1418
+            },
+            {
+              "name": "wins",
+              "value": 998
+            },
+            {
+              "name": "losses",
+              "value": 610
+            }
+          ]
+        },
+        {
+          "name": "Invictus Gaming",
+          "children": [
+            {
+              "name": "rating",
+              "value": 1401
+            },
+            {
+              "name": "wins",
+              "value": 926
+            },
+            {
+              "name": "losses",
+              "value": 634
+            }
+          ]
+        },
+        {
+          "name": "Team NP",
+          "children": [
+            {
+              "name": "rating",
+              "value": 1401
+            },
+            {
+              "name": "wins",
+              "value": 136
+            },
+            {
+              "name": "losses",
+              "value": 90
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+body {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.hidden-arc {
+  fill: none;
+}
+
+.main-arc {
+  stroke: white;
+  stroke-width: 2px;
+  transition: opacity .4s;
+}
+
+.main-arc:hover {
+  cursor: pointer;
+}
