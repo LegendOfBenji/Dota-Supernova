@@ -1,7 +1,8 @@
 body {
   font-family: 'PT Sans Narrow', sans-serif;
   background: url("https://frapwithfriends1-seeds.s3.amazonaws.com/dota2heroes.jpg") no-repeat center center fixed;
-  background-size: cover; }
+  background-size: cover; 
+}
 
 .hidden-arc {
   fill: none; }
