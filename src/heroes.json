@@ -8,15 +8,15 @@
           "name": "Axe",
           "children": [
             {
-              "name": "base_str",
+              "name": "base str",
               "value": 25
             },
             {
-              "name": "base_agi",
+              "name": "base agi",
               "value": 20
             },
             {
-              "name": "base_int",
+              "name": "base int",
               "value": 18
             }
           ]
@@ -25,15 +25,15 @@
           "name": "Earthshaker",
           "children": [
             {
-              "name": "base_str",
+              "name": "base str",
               "value": 22
             },
             {
-              "name": "base_agi",
+              "name": "base agi",
               "value": 12
             },
             {
-              "name": "base_int",
+              "name": "base int",
               "value": 16
             }
           ]
@@ -42,15 +42,15 @@
           "name": "Pudge",
           "children": [
             {
-              "name": "base_str",
+              "name": "base str",
               "value": 25
             },
             {
-              "name": "base_agi",
+              "name": "base agi",
               "value": 14
             },
             {
-              "name": "base_int",
+              "name": "base int",
               "value": 16
             }
           ]
@@ -59,15 +59,15 @@
           "name": "Sand King",
           "children": [
             {
-              "name": "base_str",
+              "name": "base str",
               "value": 22
             },
             {
-              "name": "base_agi",
+              "name": "base agi",
               "value": 19
             },
             {
-              "name": "base_int",
+              "name": "base int",
               "value": 19
             }
           ]
@@ -76,15 +76,15 @@
           "name": "Sven",
           "children": [
             {
-              "name": "base_str",
+              "name": "base str",
               "value": 23
             },
             {
-              "name": "base_agi",
+              "name": "base agi",
               "value": 21
             },
             {
-              "name": "base_int",
+              "name": "base int",
               "value": 16
             }
           ]
@@ -93,15 +93,15 @@
           "name": "Tiny",
           "children": [
             {
-              "name": "base_str",
+              "name": "base str",
               "value": 30
             },
             {
-              "name": "base_agi",
+              "name": "base agi",
               "value": 0
             },
             {
-              "name": "base_int",
+              "name": "base int",
               "value": 17
             }
           ]
@@ -110,15 +110,15 @@
           "name": "Kunkka",
           "children": [
             {
-              "name": "base_str",
+              "name": "base str",
               "value": 24
             },
             {
-              "name": "base_agi",
+              "name": "base agi",
               "value": 14
             },
             {
-              "name": "base_int",
+              "name": "base int",
               "value": 18
             }
           ]
@@ -127,15 +127,15 @@
           "name": "Slardar",
           "children": [
             {
-              "name": "base_str",
+              "name": "base str",
               "value": 21
             },
             {
-              "name": "base_agi",
+              "name": "base agi",
               "value": 17
             },
             {
-              "name": "base_int",
+              "name": "base int",
               "value": 15
             }
           ]
@@ -144,15 +144,15 @@
           "name": "Tidehunter",
           "children": [
             {
-              "name": "base_str",
+              "name": "base str",
               "value": 22
             },
             {
-              "name": "base_agi",
+              "name": "base agi",
               "value": 15
             },
             {
-              "name": "base_int",
+              "name": "base int",
               "value": 16
             }
           ]
@@ -166,15 +166,15 @@
           "name": "Anti mage",
           "children": [
             {
-              "name": "base_str",
+              "name": "base str",
               "value": 23
             },
             {
-              "name": "base_agi",
+              "name": "base agi",
               "value": 24
             },
             {
-              "name": "base_int",
+              "name": "base int",
               "value": 12
             }
           ]
@@ -183,15 +183,15 @@
           "name": "Bloodseeker",
           "children": [
             {
-              "name": "base_str",
+              "name": "base str",
               "value": 24
             },
             {
-              "name": "base_agi",
+              "name": "base agi",
               "value": 24
             },
             {
-              "name": "base_int",
+              "name": "base int",
               "value": 18
             }
           ]
@@ -200,15 +200,15 @@
           "name": "Drow Ranger",
           "children": [
             {
-              "name": "base_str",
+              "name": "base str",
               "value": 17
             },
             {
-              "name": "base_agi",
+              "name": "base agi",
               "value": 29
             },
             {
-              "name": "base_int",
+              "name": "base int",
               "value": 15
             }
           ]
@@ -217,15 +217,15 @@
           "name": "Juggernaut",
           "children": [
             {
-              "name": "base_str",
+              "name": "base str",
               "value": 21
             },
             {
-              "name": "base_agi",
+              "name": "base agi",
               "value": 36
             },
             {
-              "name": "base_int",
+              "name": "base int",
               "value": 14
             }
           ]
@@ -234,15 +234,15 @@
           "name": "Mirana",
           "children": [
             {
-              "name": "base_str",
+              "name": "base str",
               "value": 18
             },
             {
-              "name": "base_agi",
+              "name": "base agi",
               "value": 18
             },
             {
-              "name": "base_int",
+              "name": "base int",
               "value": 19
             }
           ]
@@ -251,15 +251,15 @@
           "name": "Morphling",
           "children": [
             {
-              "name": "base_str",
+              "name": "base str",
               "value": 20
             },
             {
-              "name": "base_agi",
+              "name": "base agi",
               "value": 24
             },
             {
-              "name": "base_int",
+              "name": "base int",
               "value": 13
             }
           ]
@@ -268,15 +268,15 @@
           "name": "Shadow Fiend",
           "children": [
             {
-              "name": "base_str",
+              "name": "base str",
               "value": 19
             },
             {
-              "name": "base_agi",
+              "name": "base agi",
               "value": 20
             },
             {
-              "name": "base_int",
+              "name": "base int",
               "value": 18
             }
           ]
@@ -285,15 +285,15 @@
           "name": "Phantom Lancer",
           "children": [
             {
-              "name": "base_str",
+              "name": "base str",
               "value": 19
             },
             {
-              "name": "base_agi",
+              "name": "base agi",
               "value": 29
             },
             {
-              "name": "base_int",
+              "name": "base int",
               "value": 19
             }
           ]
@@ -302,15 +302,15 @@
           "name": "Razor",
           "children": [
             {
-              "name": "base_str",
+              "name": "base str",
               "value": 22
             },
             {
-              "name": "base_agi",
+              "name": "base agi",
               "value": 22
             },
             {
-              "name": "base_int",
+              "name": "base int",
               "value": 21
             }
           ]
@@ -319,15 +319,15 @@
           "name": "Vengeful Spirit",
           "children": [
             {
-              "name": "base_str",
+              "name": "base str",
               "value": 19
             },
             {
-              "name": "base_agi",
+              "name": "base agi",
               "value": 27
             },
             {
-              "name": "base_int",
+              "name": "base int",
               "value": 13
             }
           ]
@@ -336,15 +336,15 @@
           "name": "Riki",
           "children": [
             {
-              "name": "base_str",
+              "name": "base str",
               "value": 18
             },
             {
-              "name": "base_agi",
+              "name": "base agi",
               "value": 30
             },
             {
-              "name": "base_int",
+              "name": "base int",
               "value": 14
             }
           ]
@@ -353,15 +353,15 @@
           "name": "Sniper",
           "children": [
             {
-              "name": "base_str",
+              "name": "base str",
               "value": 19
             },
             {
-              "name": "base_agi",
+              "name": "base agi",
               "value": 21
             },
             {
-              "name": "base_int",
+              "name": "base int",
               "value": 15
             }
           ]
@@ -375,15 +375,15 @@
           "name": "Bane",
           "children": [
             {
-              "name": "base_str",
+              "name": "base str",
               "value": 23
             },
             {
-              "name": "base_agi",
+              "name": "base agi",
               "value": 23
             },
             {
-              "name": "base_int",
+              "name": "base int",
               "value": 23
             }
           ]
@@ -392,15 +392,15 @@
           "name": "Crystal Maiden",
           "children": [
             {
-              "name": "base_str",
+              "name": "base str",
               "value": 18
             },
             {
-              "name": "base_agi",
+              "name": "base agi",
               "value": 16
             },
             {
-              "name": "base_int",
+              "name": "base int",
               "value": 14
             }
           ]
@@ -409,15 +409,15 @@
           "name": "Puck",
           "children": [
             {
-              "name": "base_str",
+              "name": "base str",
               "value": 17
             },
             {
-              "name": "base_agi",
+              "name": "base agi",
               "value": 22
             },
             {
-              "name": "base_int",
+              "name": "base int",
               "value": 23
             }
           ]
@@ -426,15 +426,15 @@
           "name": "Storm Spirit",
           "children": [
             {
-              "name": "base_str",
+              "name": "base str",
               "value": 21
             },
             {
-              "name": "base_agi",
+              "name": "base agi",
               "value": 22
             },
             {
-              "name": "base_int",
+              "name": "base int",
               "value": 23
             }
           ]
@@ -443,15 +443,15 @@
           "name": "Windranger",
           "children": [
             {
-              "name": "base_str",
+              "name": "base str",
               "value": 18
             },
             {
-              "name": "base_agi",
+              "name": "base agi",
               "value": 17
             },
             {
-              "name": "base_int",
+              "name": "base int",
               "value": 18
             }
           ]
@@ -460,15 +460,15 @@
           "name": "Zeus",
           "children": [
             {
-              "name": "base_str",
+              "name": "base str",
               "value": 21
             },
             {
-              "name": "base_agi",
+              "name": "base agi",
               "value": 11
             },
             {
-              "name": "base_int",
+              "name": "base int",
               "value": 21
             }
           ]
@@ -477,15 +477,15 @@
           "name": "Lina",
           "children": [
             {
-              "name": "base_str",
+              "name": "base str",
               "value": 20
             },
             {
-              "name": "base_agi",
+              "name": "base agi",
               "value": 23
             },
             {
-              "name": "base_int",
+              "name": "base int",
               "value": 30
             }
           ]
@@ -494,15 +494,15 @@
           "name": "Lion",
           "children": [
             {
-              "name": "base_str",
+              "name": "base str",
               "value": 18
             },
             {
-              "name": "base_agi",
+              "name": "base agi",
               "value": 15
             },
             {
-              "name": "base_int",
+              "name": "base int",
               "value": 18
             }
           ]
@@ -511,15 +511,15 @@
           "name": "Shadow Shaman",
           "children": [
             {
-              "name": "base_str",
+              "name": "base str",
               "value": 23
             },
             {
-              "name": "base_agi",
+              "name": "base agi",
               "value": 16
             },
             {
-              "name": "base_int",
+              "name": "base int",
               "value": 19
             }
           ]
@@ -528,15 +528,15 @@
           "name": "Witch Doctor",
           "children": [
             {
-              "name": "base_str",
+              "name": "base str",
               "value": 18
             },
             {
-              "name": "base_agi",
+              "name": "base agi",
               "value": 13
             },
             {
-              "name": "base_int",
+              "name": "base int",
               "value": 22
             }
           ]
@@ -545,15 +545,15 @@
           "name": "Lich",
           "children": [
             {
-              "name": "base_str",
+              "name": "base str",
               "value": 20
             },
             {
-              "name": "base_agi",
+              "name": "base agi",
               "value": 15
             },
             {
-              "name": "base_int",
+              "name": "base int",
               "value": 20
             }
           ]
@@ -562,15 +562,15 @@
           "name": "Enigma",
           "children": [
             {
-              "name": "base_str",
+              "name": "base str",
               "value": 21
             },
             {
-              "name": "base_agi",
+              "name": "base agi",
               "value": 14
             },
             {
-              "name": "base_int",
+              "name": "base int",
               "value": 18
             }
           ]
@@ -579,15 +579,15 @@
           "name": "Tinker",
           "children": [
             {
-              "name": "base_str",
+              "name": "base str",
               "value": 17
             },
             {
-              "name": "base_agi",
+              "name": "base agi",
               "value": 13
             },
             {
-              "name": "base_int",
+              "name": "base int",
               "value": 28
             }
           ]
