@@ -273,7 +273,7 @@ document.addEventListener("DOMContentLoaded", () => {
      .style("width", width)
      .style("height", height)
      .attr("viewBox", `${-width / 2} ${-height / 2} ${width} ${height}`)
-     .on("click", () => focusOn()); // Reset zoom on canvas click
+     .on("click", () => focusOn());
 
    d3.json('./src/data.json').then( data => {
     console.log(data);
@@ -293,21 +293,42 @@ document.addEventListener("DOMContentLoaded", () => {
          .on("click", d => {
            d3.event.stopPropagation();
            focusOn(d);
-         })
-         .on("mouseover", function(d){tooltip.text(d); return tooltip.style("visibility", "visible");})
-        .on("mousemove", function(){return tooltip.style("top", (d3.event.pageY-10)+"px").style("left",(d3.event.pageX+10)+"px");})
-        .on("mouseout", function(){return tooltip.style("visibility", "hidden");});
+         }); // Reset zoom on canvas click
 
+             let tooltip = d3
+               .select("body")
+               .append("div")
+               .style("position", "absolute")
+               .style("z-index", "10")
+               .style("visibility", "hidden")
+               .style("background", "#e6e6e6fc")
+               .style("opacity", 0.8)
+               .style("padding", "5px")
+               .style("border-radius", "5px");
+
+             let showTooltip = d => {
+               console.log(d);
+               tooltip.transition().duration(200);
+               tooltip.text("value: " + d.data.value);
+               if (d.data.value !== undefined) {
+               return tooltip.style("visibility", "visible");
+               }  
+             };
+
+             let moveTooltip = d => {
+               return tooltip
+                 .style("top", (d3.event.pageY+10)+"px").style("left",(d3.event.pageX-80)+"px")
+             };
+
+             let hideTooltip = d => {
+               return tooltip
+                 .style("visibility", "hidden");
+             };
+        
        newSlice
-         .append("title")
-         .text(d => d.data.name + "\n" + formatNumber(d.value));
-
-      let tooltip = newSlice.append("div")
-        .style("position", "absolute")
-        .style("z-index", "10")
-        .style("visibility", "hidden")
-        .style("background", "#000")
-        .text("a simple tooltip");
+         .on("mouseover", showTooltip)
+         .on("mousemove", moveTooltip)
+         .on("mouseleave", hideTooltip);
 
        newSlice
          .append("path")
@@ -320,6 +341,7 @@ document.addEventListener("DOMContentLoaded", () => {
          .attr("class", "hidden-arc")
          .attr("id", (_, i) => `hiddenArc${i}`)
          .attr("d", midArc);
+         
 
          //append the text, if it doesn't fit then don't display
        const text = newSlice
@@ -329,17 +351,17 @@ document.addEventListener("DOMContentLoaded", () => {
        // Add white contour
        text
          .append("textPath")
-         .attr("startOffset", "50%")
+         .attr("startOffset", "35%")
          .attr("xlink:href", (_, i) => `#hiddenArc${i}`)
          .text(d => d.data.name)
-         .style("fill", "none")
+          .style("fill", "none")
          .style("stroke", "#fff")
          .style("stroke-width", 5)
          .style("stroke-linejoin", "round");
 
        text
          .append("textPath")
-         .attr("startOffset", "50%")
+         .attr("startOffset", "35%")
          .attr("xlink:href", (_, i) => `#hiddenArc${i}`)
          .text(d => d.data.name);
      }

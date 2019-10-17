@@ -1,240 +1,598 @@
-[
-  {
-    "name": "Anti-Mage",
-    "primary_attr": "agi",
-    "base_str": 23,
-    "base_agi": 24,
-    "base_int": 12
-  },
-  {
-    "name": "Axe",
-    "primary_attr": "str",
-    "base_str": 25,
-    "base_agi": 20,
-    "base_int": 18
-  },
-  {
-    "name": "Bane",
-    "primary_attr": "int",
-    "base_str": 23,
-    "base_agi": 23,
-    "base_int": 23
-  },
-  {
-    "name": "Bloodseeker",
-    "primary_attr": "agi",
-    "base_str": 24,
-    "base_agi": 24,
-    "base_int": 18
-  },
-  {
-    "name": "Crystal Maiden",
-    "primary_attr": "int",
-    "base_str": 18,
-    "base_agi": 16,
-    "base_int": 14
-  },
-  {
-    "name": "Drow Ranger",
-    "primary_attr": "agi",
-    "base_str": 17,
-    "base_agi": 29,
-    "base_int": 15
-  },
-  {
-    "name": "Earthshaker",
-    "primary_attr": "str",
-    "base_str": 22,
-    "base_agi": 12,
-    "base_int": 16
-  },
-  {
-    "name": "Juggernaut",
-    "primary_attr": "agi",
-    "base_str": 21,
-    "base_agi": 36,
-    "base_int": 14
-  },
-  {
-    "name": "Mirana",
-    "primary_attr": "agi",
-    "base_str": 18,
-    "base_agi": 18,
-    "base_int": 19
-  },
-  {
-    "name": "Morphling",
-    "primary_attr": "agi",
-    "base_str": 20,
-    "base_agi": 24,
-    "base_int": 13
-  },
-  {
-    "name": "Shadow Fiend",
-    "primary_attr": "agi",
-    "base_str": 19,
-    "base_agi": 20,
-    "base_int": 18
-  },
-  {
-    "name": "Phantom Lancer",
-    "primary_attr": "agi",
-    "base_str": 19,
-    "base_agi": 29,
-    "base_int": 19
-  },
-  {
-    "name": "Puck",
-    "primary_attr": "int",
-    "base_str": 17,
-    "base_agi": 22,
-    "base_int": 23
-  },
-  {
-    "name": "Pudge",
-    "primary_attr": "str",
-    "base_str": 25,
-    "base_agi": 14,
-    "base_int": 16
-  },
-  {
-    "name": "Razor",
-    "primary_attr": "agi",
-    "base_str": 22,
-    "base_agi": 22,
-    "base_int": 21
-  },
-  {
-    "name": "Sand King",
-    "primary_attr": "str",
-    "base_str": 22,
-    "base_agi": 19,
-    "base_int": 19
-  },
-  {
-    "name": "Storm Spirit",
-    "primary_attr": "int",
-    "base_str": 21,
-    "base_agi": 22,
-    "base_int": 23
-  },
-  {
-    "name": "Sven",
-    "primary_attr": "str",
-    "base_str": 23,
-    "base_agi": 21,
-    "base_int": 16
-  },
-  {
-    "name": "Tiny",
-    "primary_attr": "str",
-    "base_str": 30,
-    "base_agi": 0,
-    "base_int": 17
-  },
-  {
-    "name": "Vengeful Spirit",
-    "primary_attr": "agi",
-    "base_str": 19,
-    "base_agi": 27,
-    "base_int": 13
-  },
-  {
-    "name": "Windranger",
-    "primary_attr": "int",
-    "base_str": 18,
-    "base_agi": 17,
-    "base_int": 18
-  },
-  {
-    "name": "Zeus",
-    "primary_attr": "int",
-    "base_str": 21,
-    "base_agi": 11,
-    "base_int": 21
-  },
-  {
-    "name": "Kunkka",
-    "primary_attr": "str",
-    "base_str": 24,
-    "base_agi": 14,
-    "base_int": 18
-  },
-  {
-    "name": "Lina",
-    "primary_attr": "int",
-    "base_str": 20,
-    "base_agi": 23,
-    "base_int": 30
-  },
-  {
-    "name": "Lion",
-    "primary_attr": "int",
-    "base_str": 18,
-    "base_agi": 15,
-    "base_int": 18
-  },
-  {
-    "name": "Shadow Shaman",
-    "primary_attr": "int",
-    "base_str": 23,
-    "base_agi": 16,
-    "base_int": 19
-  },
-  {
-    "name": "Slardar",
-    "primary_attr": "str",
-    "base_str": 21,
-    "base_agi": 17,
-    "base_int": 15
-  },
-  {
-    "name": "Tidehunter",
-    "primary_attr": "str",
-    "base_str": 22,
-    "base_agi": 15,
-    "base_int": 16
-  },
-  {
-    "name": "Witch Doctor",
-    "primary_attr": "int",
-    "base_str": 18,
-    "base_agi": 13,
-    "base_int": 22
-  },
-  {
-    "name": "Lich",
-    "primary_attr": "int",
-    "base_str": 20,
-    "base_agi": 15,
-    "base_int": 20
-  },
-  {
-    "name": "Riki",
-    "primary_attr": "agi",
-    "base_str": 18,
-    "base_agi": 30,
-    "base_int": 14
-  },
-  {
-    "name": "Enigma",
-    "primary_attr": "int",
-    "base_str": 21,
-    "base_agi": 14,
-    "base_int": 18
-  },
-  {
-    "name": "Tinker",
-    "primary_attr": "int",
-    "base_str": 17,
-    "base_agi": 13,
-    "base_int": 28
-  },
-  {
-    "name": "Sniper",
-    "primary_attr": "agi",
-    "base_str": 19,
-    "base_agi": 21,
-    "base_int": 15
-  }
-]
+{
+  "name": "Heroes",
+  "children": [
+    {
+      "name": "Strength",
+      "children": [
+        {
+          "name": "Axe",
+          "children": [
+            {
+              "name": "base_str",
+              "value": 25
+            },
+            {
+              "name": "base_agi",
+              "value": 20
+            },
+            {
+              "name": "base_int",
+              "value": 18
+            }
+          ]
+        },
+        {
+          "name": "Earthshaker",
+          "children": [
+            {
+              "name": "base_str",
+              "value": 22
+            },
+            {
+              "name": "base_agi",
+              "value": 12
+            },
+            {
+              "name": "base_int",
+              "value": 16
+            }
+          ]
+        },
+        {
+          "name": "Pudge",
+          "children": [
+            {
+              "name": "base_str",
+              "value": 25
+            },
+            {
+              "name": "base_agi",
+              "value": 14
+            },
+            {
+              "name": "base_int",
+              "value": 16
+            }
+          ]
+        },
+        {
+          "name": "Sand King",
+          "children": [
+            {
+              "name": "base_str",
+              "value": 22
+            },
+            {
+              "name": "base_agi",
+              "value": 19
+            },
+            {
+              "name": "base_int",
+              "value": 19
+            }
+          ]
+        },
+        {
+          "name": "Sven",
+          "children": [
+            {
+              "name": "base_str",
+              "value": 23
+            },
+            {
+              "name": "base_agi",
+              "value": 21
+            },
+            {
+              "name": "base_int",
+              "value": 16
+            }
+          ]
+        },
+        {
+          "name": "Tiny",
+          "children": [
+            {
+              "name": "base_str",
+              "value": 30
+            },
+            {
+              "name": "base_agi",
+              "value": 0
+            },
+            {
+              "name": "base_int",
+              "value": 17
+            }
+          ]
+        },
+        {
+          "name": "Kunkka",
+          "children": [
+            {
+              "name": "base_str",
+              "value": 24
+            },
+            {
+              "name": "base_agi",
+              "value": 14
+            },
+            {
+              "name": "base_int",
+              "value": 18
+            }
+          ]
+        },
+        {
+          "name": "Slardar",
+          "children": [
+            {
+              "name": "base_str",
+              "value": 21
+            },
+            {
+              "name": "base_agi",
+              "value": 17
+            },
+            {
+              "name": "base_int",
+              "value": 15
+            }
+          ]
+        },
+        {
+          "name": "Tidehunter",
+          "children": [
+            {
+              "name": "base_str",
+              "value": 22
+            },
+            {
+              "name": "base_agi",
+              "value": 15
+            },
+            {
+              "name": "base_int",
+              "value": 16
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Agility",
+      "children": [
+        {
+          "name": "Anti mage",
+          "children": [
+            {
+              "name": "base_str",
+              "value": 23
+            },
+            {
+              "name": "base_agi",
+              "value": 24
+            },
+            {
+              "name": "base_int",
+              "value": 12
+            }
+          ]
+        },
+        {
+          "name": "Bloodseeker",
+          "children": [
+            {
+              "name": "base_str",
+              "value": 24
+            },
+            {
+              "name": "base_agi",
+              "value": 24
+            },
+            {
+              "name": "base_int",
+              "value": 18
+            }
+          ]
+        },
+        {
+          "name": "Drow Ranger",
+          "children": [
+            {
+              "name": "base_str",
+              "value": 17
+            },
+            {
+              "name": "base_agi",
+              "value": 29
+            },
+            {
+              "name": "base_int",
+              "value": 15
+            }
+          ]
+        },
+        {
+          "name": "Juggernaut",
+          "children": [
+            {
+              "name": "base_str",
+              "value": 21
+            },
+            {
+              "name": "base_agi",
+              "value": 36
+            },
+            {
+              "name": "base_int",
+              "value": 14
+            }
+          ]
+        },
+        {
+          "name": "Mirana",
+          "children": [
+            {
+              "name": "base_str",
+              "value": 18
+            },
+            {
+              "name": "base_agi",
+              "value": 18
+            },
+            {
+              "name": "base_int",
+              "value": 19
+            }
+          ]
+        },
+        {
+          "name": "Morphling",
+          "children": [
+            {
+              "name": "base_str",
+              "value": 20
+            },
+            {
+              "name": "base_agi",
+              "value": 24
+            },
+            {
+              "name": "base_int",
+              "value": 13
+            }
+          ]
+        },
+        {
+          "name": "Shadow Fiend",
+          "children": [
+            {
+              "name": "base_str",
+              "value": 19
+            },
+            {
+              "name": "base_agi",
+              "value": 20
+            },
+            {
+              "name": "base_int",
+              "value": 18
+            }
+          ]
+        },
+        {
+          "name": "Phantom Lancer",
+          "children": [
+            {
+              "name": "base_str",
+              "value": 19
+            },
+            {
+              "name": "base_agi",
+              "value": 29
+            },
+            {
+              "name": "base_int",
+              "value": 19
+            }
+          ]
+        },
+        {
+          "name": "Razor",
+          "children": [
+            {
+              "name": "base_str",
+              "value": 22
+            },
+            {
+              "name": "base_agi",
+              "value": 22
+            },
+            {
+              "name": "base_int",
+              "value": 21
+            }
+          ]
+        },
+        {
+          "name": "Vengeful Spirit",
+          "children": [
+            {
+              "name": "base_str",
+              "value": 19
+            },
+            {
+              "name": "base_agi",
+              "value": 27
+            },
+            {
+              "name": "base_int",
+              "value": 13
+            }
+          ]
+        },
+        {
+          "name": "Riki",
+          "children": [
+            {
+              "name": "base_str",
+              "value": 18
+            },
+            {
+              "name": "base_agi",
+              "value": 30
+            },
+            {
+              "name": "base_int",
+              "value": 14
+            }
+          ]
+        },
+        {
+          "name": "Sniper",
+          "children": [
+            {
+              "name": "base_str",
+              "value": 19
+            },
+            {
+              "name": "base_agi",
+              "value": 21
+            },
+            {
+              "name": "base_int",
+              "value": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intelligence",
+      "children": [
+        {
+          "name": "Bane",
+          "children": [
+            {
+              "name": "base_str",
+              "value": 23
+            },
+            {
+              "name": "base_agi",
+              "value": 23
+            },
+            {
+              "name": "base_int",
+              "value": 23
+            }
+          ]
+        },
+        {
+          "name": "Crystal Maiden",
+          "children": [
+            {
+              "name": "base_str",
+              "value": 18
+            },
+            {
+              "name": "base_agi",
+              "value": 16
+            },
+            {
+              "name": "base_int",
+              "value": 14
+            }
+          ]
+        },
+        {
+          "name": "Puck",
+          "children": [
+            {
+              "name": "base_str",
+              "value": 17
+            },
+            {
+              "name": "base_agi",
+              "value": 22
+            },
+            {
+              "name": "base_int",
+              "value": 23
+            }
+          ]
+        },
+        {
+          "name": "Storm Spirit",
+          "children": [
+            {
+              "name": "base_str",
+              "value": 21
+            },
+            {
+              "name": "base_agi",
+              "value": 22
+            },
+            {
+              "name": "base_int",
+              "value": 23
+            }
+          ]
+        },
+        {
+          "name": "Windranger",
+          "children": [
+            {
+              "name": "base_str",
+              "value": 18
+            },
+            {
+              "name": "base_agi",
+              "value": 17
+            },
+            {
+              "name": "base_int",
+              "value": 18
+            }
+          ]
+        },
+        {
+          "name": "Zeus",
+          "children": [
+            {
+              "name": "base_str",
+              "value": 21
+            },
+            {
+              "name": "base_agi",
+              "value": 11
+            },
+            {
+              "name": "base_int",
+              "value": 21
+            }
+          ]
+        },
+        {
+          "name": "Lina",
+          "children": [
+            {
+              "name": "base_str",
+              "value": 20
+            },
+            {
+              "name": "base_agi",
+              "value": 23
+            },
+            {
+              "name": "base_int",
+              "value": 30
+            }
+          ]
+        },
+        {
+          "name": "Lion",
+          "children": [
+            {
+              "name": "base_str",
+              "value": 18
+            },
+            {
+              "name": "base_agi",
+              "value": 15
+            },
+            {
+              "name": "base_int",
+              "value": 18
+            }
+          ]
+        },
+        {
+          "name": "Shadow Shaman",
+          "children": [
+            {
+              "name": "base_str",
+              "value": 23
+            },
+            {
+              "name": "base_agi",
+              "value": 16
+            },
+            {
+              "name": "base_int",
+              "value": 19
+            }
+          ]
+        },
+        {
+          "name": "Witch Doctor",
+          "children": [
+            {
+              "name": "base_str",
+              "value": 18
+            },
+            {
+              "name": "base_agi",
+              "value": 13
+            },
+            {
+              "name": "base_int",
+              "value": 22
+            }
+          ]
+        },
+        {
+          "name": "Lich",
+          "children": [
+            {
+              "name": "base_str",
+              "value": 20
+            },
+            {
+              "name": "base_agi",
+              "value": 15
+            },
+            {
+              "name": "base_int",
+              "value": 20
+            }
+          ]
+        },
+        {
+          "name": "Enigma",
+          "children": [
+            {
+              "name": "base_str",
+              "value": 21
+            },
+            {
+              "name": "base_agi",
+              "value": 14
+            },
+            {
+              "name": "base_int",
+              "value": 18
+            }
+          ]
+        },
+        {
+          "name": "Tinker",
+          "children": [
+            {
+              "name": "base_str",
+              "value": 17
+            },
+            {
+              "name": "base_agi",
+              "value": 13
+            },
+            {
+              "name": "base_int",
+              "value": 28
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
