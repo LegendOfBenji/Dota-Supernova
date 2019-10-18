@@ -1,17 +1,4 @@
-body {
-  font-family: 'PT Sans Narrow', sans-serif;
-  background: url("https://frapwithfriends1-seeds.s3.amazonaws.com/dota2heroes.jpg") no-repeat center center fixed;
-  background-size: cover; 
-}
+body{font-family:'PT Sans Narrow', sans-serif;font-size:15px;background:url("https://frapwithfriends1-seeds.s3.amazonaws.com/dota2heroes.jpg") no-repeat center center fixed;background-blend-mode:screen, difference, lighten;background-size:cover}.hidden-arc{fill:none}.main-arc{stroke:white;stroke-width:2px;transition:opacity .4s}.main-arc:hover{cursor:pointer}svg{display:flex;justify-content:center;align-items:center}.heroes{padding:40px}.matches{padding:40px}
 
-.hidden-arc {
-  fill: none; }
 
-.main-arc {
-  stroke: white;
-  stroke-width: 2px;
-  transition: opacity .4s; }
-
-.main-arc:hover {
-  cursor: pointer; }
-/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvc3R5bGVzL2luZGV4LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7QUFDQTtBQUNBO0FBQ0EseUJBQXlCOztBQUV6QjtBQUNBLGFBQWE7O0FBRWI7QUFDQTtBQUNBO0FBQ0EsMEJBQTBCOztBQUUxQjtBQUNBLGtCQUFrQjs7QUFFbEI7QUFDQTtBQUNBO0FBQ0Esc0JBQXNCIiwiZmlsZSI6Im1haW4uY3NzIiwic291cmNlc0NvbnRlbnQiOlsiYm9keSB7XG4gIGZvbnQtZmFtaWx5OiAnUFQgU2FucyBOYXJyb3cnLCBzYW5zLXNlcmlmO1xuICBiYWNrZ3JvdW5kOiB1cmwoXCJodHRwczovL2ZyYXB3aXRoZnJpZW5kczEtc2VlZHMuczMuYW1hem9uYXdzLmNvbS9kb3RhMmhlcm9lcy5qcGdcIikgbm8tcmVwZWF0IGNlbnRlciBjZW50ZXIgZml4ZWQ7XG4gIGJhY2tncm91bmQtc2l6ZTogY292ZXI7IH1cblxuLmhpZGRlbi1hcmMge1xuICBmaWxsOiBub25lOyB9XG5cbi5tYWluLWFyYyB7XG4gIHN0cm9rZTogd2hpdGU7XG4gIHN0cm9rZS13aWR0aDogMnB4O1xuICB0cmFuc2l0aW9uOiBvcGFjaXR5IC40czsgfVxuXG4ubWFpbi1hcmM6aG92ZXIge1xuICBjdXJzb3I6IHBvaW50ZXI7IH1cblxuc3ZnIHtcbiAgZGlzcGxheTogZmxleDtcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7IH1cbiJdLCJzb3VyY2VSb290IjoiIn0=*/
+/*# sourceMappingURL=main.css.map*/
