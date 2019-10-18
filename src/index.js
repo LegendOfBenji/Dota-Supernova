@@ -53,16 +53,14 @@ document.addEventListener("DOMContentLoaded", () => {
     const heroButton = d3
       .select("body")
       .append("button")
-      .text('heroes')
-      .style("padding", "10px")
+      .text('Heroes')
       .attr("class", "heroes")
       .on("click", () => updateData("heroes"));
 
     const matchButton = d3
       .select("body")
       .append("button")
-      .text('matches')
-      .style("padding", "10px")
+      .text('Matches')
       .attr("class", "matches")
       .on("click", () => updateData("matches"));
       // separate //
