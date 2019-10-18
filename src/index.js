@@ -53,6 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const heroButton = d3
       .select("body")
       .append("button")
+      .text('heroes')
       .style("padding", "10px")
       .attr("class", "heroes")
       .on("click", () => updateData("heroes"));
@@ -60,6 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const matchButton = d3
       .select("body")
       .append("button")
+      .text('matches')
       .style("padding", "10px")
       .attr("class", "matches")
       .on("click", () => updateData("matches"));
@@ -140,12 +142,11 @@ document.addEventListener("DOMContentLoaded", () => {
          .attr("d", midArc);
          
 
-         //append the text, if it doesn't fit then don't display
        const text = newSlice
          .append("text")
          .attr("display", d => (textFits(d) ? d.data : "none"));
          
-       // Add white contour
+       // White to text
        text
          .append("textPath")
          .attr("startOffset", "40%")
@@ -182,7 +183,6 @@ document.addEventListener("DOMContentLoaded", () => {
        .selectAll("path.hidden-arc")
        .attrTween("d", d => () => midArc(d));
 
-       //allows all the text that fits to show after each transition
      transition
        .selectAll("text")
        .attrTween("display", d => () => (textFits(d) ? null : "none"));
