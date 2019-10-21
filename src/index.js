@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const matchButton = d3
       .select("body")
       .append("button")
-      .text('Matches')
+      .text('Teams')
       .attr("class", "matches")
       .on("click", () => updateData("matches"));
       // separate //
@@ -73,13 +73,13 @@ document.addEventListener("DOMContentLoaded", () => {
        .attr("viewBox", `${-width / 2} ${-height / 2} ${width} ${height}`);
 
    d3.json('./src/data.json').then( data => {
-      console.log(data);
        data = d3.hierarchy(data);
        data.sum(d => d.value);
 
        const slice = svg
          .selectAll("g.slice")
          .data(partition(data).descendants());
+      console.log(slice);
 
        slice.exit().remove();
 
