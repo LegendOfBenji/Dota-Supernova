@@ -1,6 +1,6 @@
 # Dota Supernova - A gaming data visualization
 
-Dota 2 has become one of the largest esports games in history, with its global tournament The International breaking $30 million as of 2019. While the professional scene is flourishing, many casual and veteran gamers also enjoy the game. This project represents a data visualization of both of the scenes, with data both on the macro and granular level, depending on what the user wishes to see.
+Dota 2 has become one of the largest esports games in history, with its global tournament The International breaking $30 million as of 2019. While the professional scene is flourishing, many casual and veteran gamers also enjoy the game. This project represents a data visualization of both of the scenes, with data both on the macro and granular level, depending on what the user wishes to see. <a href="https://legendofbenji.github.io/Dota-Supernova/">Live Demo</a>
 
 <h3>MVPs Features</h3>
 
