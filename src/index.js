@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", () => {
          .on("click", d => {
            d3.event.stopPropagation();
            focusOn(d);
-         }); // Reset zoom on canvas click
+         });
 
              let tooltip = d3
                .select("body")
@@ -144,7 +144,6 @@ document.addEventListener("DOMContentLoaded", () => {
          .append("text")
          .attr("display", d => (textFits(d) ? d.data : "none"));
          
-       // White to text
        text
          .append("textPath")
          .attr("startOffset", "40%")
@@ -215,7 +214,7 @@ document.addEventListener("DOMContentLoaded", () => {
              .on("click", d => {
                d3.event.stopPropagation();
                focusOn(d);
-             }); // Reset zoom on canvas click
+             }); 
 
            let tooltip = d3
              .select("body")
@@ -307,7 +306,6 @@ document.addEventListener("DOMContentLoaded", () => {
              .selectAll("path.hidden-arc")
              .attrTween("d", d => () => midArc(d));
 
-           //allows all the text that fits to show after each transition
            transition
              .selectAll("text")
              .attrTween("display", d => () => (textFits(d) ? null : "none"));
@@ -339,7 +337,7 @@ document.addEventListener("DOMContentLoaded", () => {
              .on("click", d => {
                d3.event.stopPropagation();
                focusOn(d);
-             }); // Reset zoom on canvas click
+             });
 
            let tooltip = d3
              .select("body")
@@ -392,7 +390,7 @@ document.addEventListener("DOMContentLoaded", () => {
              .append("text")
              .attr("display", d => (textFits(d) ? d.data : "none"));
 
-           // Add white contour
+           // White contour around text
            text
              .append("textPath")
              .attr("startOffset", "40%")
@@ -431,7 +429,6 @@ document.addEventListener("DOMContentLoaded", () => {
              .selectAll("path.hidden-arc")
              .attrTween("d", d => () => midArc(d));
 
-           //allows all the text that fits to show after each transition
            transition
              .selectAll("text")
              .attrTween("display", d => () => (textFits(d) ? null : "none"));

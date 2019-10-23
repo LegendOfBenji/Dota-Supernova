@@ -34,7 +34,7 @@ svg {
   padding: 10px 25px;
   position: fixed;
   border-radius: 5px;
-  top: 40%;
+  top: 35%;
   font-size: 17px;
   width: 8%;
   left: 5%;
@@ -62,7 +62,7 @@ svg {
   padding: 10px 25px;
   position: fixed;
   border-radius: 5px;
-  top: 40%;
+  top: 35%;
   left: 14%;
   width: 8%;
   font-size: 17px;
@@ -154,7 +154,7 @@ hr {
 .select-one {
   background: white;
   position: absolute;
-  top: 32%;
+  top: 27%;
   left: 9%;
   padding: 10px 40px;
   border-radius: 5px;
@@ -164,4 +164,43 @@ hr {
 
 .slice:first-child {
   opacity: .3;
+}
+
+.puzzled {
+  position: absolute;
+  top: 41%;
+  opacity: .95;
+  left: 12%;
+  cursor: help;
+  opacity: .95;
+}
+
+.puzzled .puzzledtext {
+  visibility: hidden;
+  width: 300px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+.puzzled:hover .puzzledtext {
+  visibility: visible;
+}
+
+.puzzled .puzzledtext {
+  padding: 15px;
+  background-color: white;
+  color: black;
+  width: 300px;
+  top: 100%;
+  left: 50%;
+  opacity: .95;
+  line-height: 20px;
+  margin-left: -167px; /* Use half of the width (120/2 = 60), to center the tooltip */
 }
