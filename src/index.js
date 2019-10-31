@@ -2,8 +2,8 @@ import * as styles from './styles/index.scss';
 import * as d3 from 'd3';
 
 document.addEventListener("DOMContentLoaded", () => {
-   const width = 800,
-     height = 800,
+   const width = 750,
+     height = 750,
      maxRadius = Math.min(width, height) / 2 - 5;
 
    const format = d3.format(",d");
@@ -69,7 +69,8 @@ document.addEventListener("DOMContentLoaded", () => {
        .select("svg")
        .style("width", width)
        .style("height", height)
-       .style("margin", "5% 25%")
+       .style("margin", "5% 26%")
+       .style('position', 'absolute')
        .attr("viewBox", `${-width / 2} ${-height / 2} ${width} ${height}`);
 
    d3.json('./src/data.json').then( data => {
