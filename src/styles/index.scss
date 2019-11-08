@@ -32,7 +32,7 @@ svg {
 
 .heroes {
   padding: 10px 25px;
-  position: fixed;
+  position: absolute;
   border-radius: 5px;
   top: 35%;
   font-size: 17px;
@@ -60,7 +60,7 @@ svg {
 .matches {
   font-weight: 500;
   padding: 10px 25px;
-  position: fixed;
+  position: absolute;
   border-radius: 5px;
   top: 35%;
   left: 14%;
@@ -85,7 +85,7 @@ svg {
 }
 
 .linkedin {
-    position: fixed;
+    position: absolute;
     bottom: 23.5%;
     right: 13%; 
 }
@@ -96,7 +96,7 @@ svg {
 }
 
 .github {
-    position: fixed;
+    position: absolute;
     bottom: 24%;
     right: 20%; 
 }
