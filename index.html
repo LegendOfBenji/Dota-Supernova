@@ -6,6 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="dist/main.js"></script>
   <link rel="stylesheet" href="dist/main.css" />
+  <link rel="icon" 
+      type="image/png" 
+      href="src/images/dota2icon.ico"/>
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
   <script src='./src/toggle.js'></script>
@@ -13,7 +16,8 @@
   <title>Dota Supernova</title>
 </head>
 <body>
-  <svg></svg>
+  <div className="whole">
+  <div className="left">
   <p class="select-one">Select one below</p>
   <a class="linkedin" href="https://www.linkedin.com/in/benjamin-gu-3a14a787/"> <img class="linkedin-img" src='./src/images/linkedin.png' /></a>
   <a class='github' href="https://www.github.com/LegendOfBenji"><img class='github-img' src='./src/images/github.png' /></a>
@@ -25,6 +29,11 @@
     as of 2019, showing each team's wins, losses, and overall ELO.
   </span></img>
   </a>
+  </div>
+  <div className="middle">
+  <svg></svg>
+  </div>
+  <div className="right">
   <div class='poster'>
     <p class='title'>DOTA SUPERNOVA</p>
     <hr>
@@ -37,6 +46,8 @@
     <details>
     <p class='credit'>&#169; Benjamin Gu - LegendOfBenji</p>
     </details>
+  </div>
+  </div>
   </div>
 </body>
 </html>
