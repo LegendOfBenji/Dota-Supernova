@@ -36,9 +36,7 @@ svg {
 
 .heroes {
   padding: 10px 25px;
-  position: absolute;
   border-radius: 5px;
-  top: 35%;
   font-size: 17px;
   width: 8%;
   left: 5%;
@@ -64,10 +62,7 @@ svg {
 .matches {
   font-weight: 500;
   padding: 10px 25px;
-  position: absolute;
   border-radius: 5px;
-  top: 35%;
-  left: 14%;
   width: 8%;
   font-size: 17px;
   border: 1.5px solid black;
@@ -157,9 +152,6 @@ hr {
 
 .select-one {
   background: white;
-  position: absolute;
-  top: 27%;
-  left: 9%;
   padding: 10px 40px;
   border-radius: 5px;
   background-color: #f1e9c6;
@@ -171,10 +163,7 @@ hr {
 }
 
 .puzzled {
-  position: absolute;
-  top: 41%;
   opacity: .95;
-  left: 12%;
   cursor: help;
   opacity: .95;
 }
