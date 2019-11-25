@@ -84,9 +84,6 @@ svg {
 }
 
 .linkedin {
-    position: absolute;
-    bottom: 23.5%;
-    right: 13%; 
 }
 
 .linkedin-img {
@@ -94,10 +91,7 @@ svg {
   height: 52px;
 }
 
-.github {
-    position: absolute;
-    bottom: 24%;
-    right: 20%; 
+.github { 
 }
 
 .github-img {
@@ -105,16 +99,12 @@ svg {
 }
 
 .poster {
-  position: absolute;
   display: flex;
-  
   flex-direction: column;
   align-items: center;
   width: 20%;
   height: 48%;
   background-color: #f1e9c6;
-  top: 22%;
-  right: 8%;
   opacity: .9;
   border-radius: 10px;
 }
@@ -196,4 +186,9 @@ hr {
   opacity: .95;
   line-height: 20px;
   margin-left: -167px; /* Use half of the width (120/2 = 60), to center the tooltip */
+}
+
+.left {
+  display: flex;
+  width: 33%;
 }

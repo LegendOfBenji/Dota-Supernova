@@ -67,10 +67,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
      const svg = d3
        .select("svg")
-       .style("width", width)
-       .style("height", height)
+       .style("width", '100%')
+       .style("height", '100%')
        .style("margin", "5% 26%")
-       .style('position', 'absolute')
        .attr("viewBox", `${-width / 2} ${-height / 2} ${width} ${height}`);
 
    d3.json('./src/data.json').then( data => {
